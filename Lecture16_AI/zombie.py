@@ -199,6 +199,7 @@ class Zombie:
 
         root = Selector('Behavior_Tree', chase_boy_sequence, wander)
 
+        # Drill #12 제출 - 2024180014 민현규
         self.BT = BehaviorTree(root)
 
 
